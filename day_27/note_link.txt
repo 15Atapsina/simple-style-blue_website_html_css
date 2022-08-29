@@ -1,0 +1,9 @@
+
+Float -> Structure / Layout Design -> Block, Section, Area -> div (Element) -> (Block Element) -> (Structure Element)
+Display --> h1, h2, p (Element) -> (Block Element) -> (Content Element)
+Diplay --> inline-block
+
+block -> Default Property -> Margin, padding
+extra border, margin, padding -> box-sizing: border-box;
+
+https://www.html5webtemplates.co.uk/wp-content/uploads/2020/templates/simplestyle_bluetrees/index.html

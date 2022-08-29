@@ -1,0 +1,235 @@
+/*!
+ * Template Name/Project Name: XYZ
+ * Developer Name: Mr ABC
+ * Conatct: abc@gmail.com
+ * Visit: https://abc.info
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /*for roboto font*/
+
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+}
+h1, h2, h3, h4, h5, h6, p, pre, small, span, address, li, a{
+	font-family: 'Roboto', sans-serif;
+}
+.container-fluid{
+	width: 100%;
+	clear: both;
+}
+.container{
+	width: 65%;
+	height: inherit;
+	margin: 0px auto;
+	clear: both;
+}
+img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* Common Stylesheet */
+.header-section{
+	/* height: 200px; */
+	background: #CCCCCC;
+}
+.header-inner{
+	background: #F5F5F5;
+}
+.header-inner h1{
+	color: #323232;
+	margin: 0px;
+	font-weight: 400;
+	font-size: 38px;
+	padding: 40px 0px 10px 10px;
+}
+.header-inner h1 a{
+	text-decoration: none;
+	color: #00C6F0;
+}
+.header-inner small{
+	color: #999;
+	margin: 0px;
+	font-size: 15px;
+	display: block;
+	padding: 0px 0px 40px 10px;
+}
+/* Header section end */
+.nav-section{
+	background: #CCCCCC;
+}
+.nav-inner{
+	background: #DDDDDD;
+}
+.nav-inner ul{
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+}
+.nav-inner li{
+	list-style: none;
+	display: inline-block;
+}
+.nav-inner a{
+	text-decoration: none;
+	background: #BBBBBB;
+	color: #fff;
+	font-size: 14px;
+	padding: 6px 14px;
+	margin: 6px 10px 6px 0px;
+	display: inline-block;
+}
+.nav-inner a.active{
+	background: #00C6F0;
+}
+/* navbar section end */
+.banner-section{
+	/* height: 180px; */
+	margin: 20px 0px;
+}
+.banner-inner{
+	/* background: url(../img/banner.jpg) no-repeat; */
+	/* background-size: cover; */
+	border: 10px solid #DDDDDD;
+	/* box-sizing: border-box; */
+}
+/* banner section end */
+.main-section{
+	/* height: 520px; */
+	margin-bottom: 20px;
+}
+.main-inner{
+	
+}
+.main-inner .aside{
+	width: 30%;
+	height: inherit;
+	float: left;
+}
+.main-inner .aside .news{
+	width: 90%;
+	height: 40%;
+	border: 1px solid #DDDDDD;
+	border-radius: 10px;
+	padding: 10px;
+	/* box-sizing: border-box; */
+}
+.main-inner .aside .news h2{
+	font-weight: 400;
+	font-size: 18px;
+}
+.main-inner .aside .news h3{
+	font-weight: 400;
+	font-size: 14px;
+	color: #009fbc;
+	margin: 0px;
+}
+.main-inner .aside .news small{
+	font-weight: 400;
+	font-size: 12px;
+	color: #888888;
+}
+.main-inner .aside .news p{
+	font-weight: 400;
+	font-size: 13px;
+	color: #555555;
+	line-height: 1.5;
+	text-align: justify;
+	margin-bottom: 0px;
+}
+.main-inner .aside .news a{
+	font-weight: 400;
+	font-size: 13px;
+	color: #00c6f0;
+}
+.main-inner .aside .link{
+	width: 90%;
+	height: 40%;
+	border: 1px solid #DDDDDD;
+	border-radius: 10px;
+	margin: 10px 0px;
+	padding: 10px;
+	/* box-sizing: border-box; */
+}
+.main-inner .aside .link h2{
+	font-weight: 400;
+	font-size: 18px;
+}
+.main-inner .aside .link ul{
+	padding: 0px 0px 0px 25px;
+}
+.main-inner .aside .link li{
+	line-height: 1.5;
+	list-style: url(../img/bullet.png);
+}
+.main-inner .aside .link a{
+	color: #00c6f0;
+	font-weight: 400;
+	font-size: 13px;
+}
+.main-inner .aside .search{
+	width: 90%;
+	height: 20%;
+	border: 1px solid #DDDDDD;
+	border-radius: 10px;
+	padding: 10px;
+	/* box-sizing: border-box; */
+}
+.main-inner .aside .search h2{
+	font-weight: 400;
+	font-size: 18px;
+}
+.main-inner .aside .search input{
+	width: 70%;
+	padding: 6px;
+}
+.main-inner .aside .search button img{
+	width: 60%;
+}
+.main-inner .article{
+	width: 70%;
+	height: inherit;
+	float: left;
+	padding: 0px 10px 0px 10px;
+	/* box-sizing: border-box; */
+}
+.main-inner .article h2{
+	font-weight: 400;
+}
+.main-inner .article p{
+	font-size: 14px;
+	line-height: 1.5;
+    text-align: justify;
+}
+.main-inner .article h3{
+	font-weight: 400;
+	color: #00C6F0;
+}
+.main-inner .article ul{
+	padding: 0px 0px 0px 23px;
+}
+.main-inner .article ul li{
+	font-size: 14px;
+	line-height: 2;
+	list-style: url(../img/bullet.png);
+}
+/* main section end */
+/* footer section start */
+.footer-section{
+	color: #323232;
+	background: #CCCCCC;
+}
+.footer-inner{
+}
+.footer-section p{
+	display: inline-block;
+}
+.footer-section p.text-end{
+	margin-left: 43%;
+}
+.footer-section p a{
+	text-decoration: none;
+}
+/* footer section end */\
